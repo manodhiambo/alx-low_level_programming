@@ -1,3 +1,5 @@
 1-compiler*
 #!/bin/bash
 export $CFILE=main.c/c
+#!/bin/bash
+export /c main.c=main.o

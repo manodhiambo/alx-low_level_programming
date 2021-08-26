@@ -1,2 +1,2 @@
 #!/bin/bash
-export $CFILE=main.c/c
+export /c main.c=main.o
