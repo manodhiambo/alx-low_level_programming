@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+	/*This is the assebly code of a C code*/
 	int a;
 	long int b;
 	long long int c;
