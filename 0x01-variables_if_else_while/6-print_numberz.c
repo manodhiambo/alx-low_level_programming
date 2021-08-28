@@ -9,12 +9,9 @@
  */
 int main(void)
 {
-	int n = 48
-	while (n <= 57)
-	{
-		purchar(n);
-		n =+ 1;
-	}
-	prinf("\n");
+	int i;
+	for (i = 0; i<= 9; i++)
+		putchar(i + '0');
+	putchar('\n');
 	return (0);
 }
