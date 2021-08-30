@@ -7,24 +7,42 @@
  * Return: 0
  */
 int main(void)
+
 {
 	int i, a, b;
+
 	i = 0;
+
 	while (i < 100)
+
 	{
 		a = i % 10;
+
 		b = i / 10;
+
 		if (b < a)
+
 		{
 			putchar(b + '0');
+
 			putchar(a + '0');
+
 			if (i < 89)
+
 			{
 				putchar(44);
+
 				putchar(32);
-			}}
+
+			}
+		}
+
 		i++;
+
 	}
-	putchar('\n'\);
+
+	putchar('\n');
+
 			return (0);
+
 			}
