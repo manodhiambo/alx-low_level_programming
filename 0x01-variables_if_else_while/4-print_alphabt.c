@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *  main - main bock
  *  Print the alphabet in lowcase expect q and e 
@@ -8,7 +9,6 @@
  */
 
 int main(void)
-
 {
 	char ch, e, q;
 
@@ -25,5 +25,4 @@ int main(void)
 	putchar('\n');
 
 return (0);
-
 }
