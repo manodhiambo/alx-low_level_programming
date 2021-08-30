@@ -7,11 +7,22 @@
  * Return: 0
  */
 int main(void)
+
 {
 	int d;
+
 	char ch;
-	for (ch = 'a'; ch <= 'f'; ch++
-			putchar(ch);
-			putchar('\n');
-			return (0);
-			}
+
+	for (d = '0'; d <= '9'; d++)
+
+	putchar(d);
+
+	for (ch = 'a'; ch <= 'f'; ch++)
+
+	putchar(ch);
+
+	putchar('\n');
+
+	return (0);
+
+	}
