@@ -16,7 +16,7 @@ int main(void)
 
 	q = 'q';
 
-	for (ch != 'a'; ch <= 'z'; ch++)
+	while (ch != 'a'; ch <= 'z'; ch++)
 
 	if (ch != e && ch != q)
 
