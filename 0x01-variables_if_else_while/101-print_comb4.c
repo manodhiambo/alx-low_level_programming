@@ -35,16 +35,16 @@ int main(void)
 		{
 			putchar(j + '0');
 
-				putchar(k + '0' );
+				putchar(k + '0');
 
-				putchar(l + '0' );
+				putchar(l + '0');
 
 				if (i < 700)
 
 				{
-					putchar(44 );
+					putchar(44);
 
-					putchar(32 );
+					putchar(32);
 
 				}
 		}
