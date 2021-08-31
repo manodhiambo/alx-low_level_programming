@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <time.h>
-#include "holberton"
+#include "main.h"
 
 /**
  * main - main block
- * A function that prints the 9 times table, starting with 0.
+ *A function that prints the 9 times table, starting with 0.
  *Prototype: void times_table(void)
  *Format: see example
  *Return: nothimg
  */
-
 void times_table(void)
 
 {
