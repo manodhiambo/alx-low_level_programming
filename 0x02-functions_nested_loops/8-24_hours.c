@@ -9,8 +9,11 @@
 void jack_bauer(void)
 {
 	int x = 0;
+
 	int j = 0;
+
 	while (x <= 23)
+
 	{
 		j = 0;
 		while (j <= 59)
