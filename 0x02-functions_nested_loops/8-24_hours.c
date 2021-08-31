@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 #include "main.h"
-
 /**
  * main - main block
- *prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
- *You can listen to this soundtrack while coding :)
+ *Every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
  *Return: nothing
  */
 void jack_bauer(void)
