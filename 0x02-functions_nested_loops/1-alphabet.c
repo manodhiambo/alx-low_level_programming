@@ -4,14 +4,13 @@
 
 /**
  * main - main block
- *Description - a program that prints the alphabet, in lowercase, followed by a  *new line
+ *Description - a program that prints the alphabet, in lowercase.
  *Prototype: void print_alphabet(void);
  *You can only use _putchar twice in your code
  *
  *Return: Always 0.
  */
 void print_alphabet(void)  
-
 {
 	int i;
 
@@ -22,5 +21,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
 }
