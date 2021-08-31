@@ -10,7 +10,7 @@
  *
  *Return: Always 0.
  */
-void print_alphabet(void) /*This prints the alphabet, in lowercase*/
+void print_alphabet(void)/main(void) 
 
 {
 	int i;
