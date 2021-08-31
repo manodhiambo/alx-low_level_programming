@@ -7,7 +7,7 @@
  *If n is greater than 15 or less than 0 the function should not print anything
  *Return: nothing
  */
-void print_times_table(int n)
+void times_table(int n)
 
 {
 	int row, col;
