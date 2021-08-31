@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include "holberton"
-
 /**
  * main - main block
  * A function that prints the sign of a number.
@@ -11,9 +9,7 @@
  *Returns -1 and prints - if n is less than zero
  *Return: int
  */
-
 int print_sign(int n)
-
 {
 	if (n > 0)
 
