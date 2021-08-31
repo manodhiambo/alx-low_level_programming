@@ -4,6 +4,7 @@
 /**
  * main - main block
  *Description - a program that prints the alphabet, in lowercase.
+ *Write a function that prints the alphabet, in lowercase.
  *Return: Always 0.
  */
 void print_alphabet(void)
