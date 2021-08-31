@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 #include <main.h>
 
 /**
@@ -9,7 +8,7 @@
  * Return: 0
  */
 
-int main<void>
+int main(void)
 
 {
 	int n = 0;
