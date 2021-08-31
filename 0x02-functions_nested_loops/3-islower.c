@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <time.h>
-
+#include "main.h"
+#include "holberton.h"
 /**
  * main - main block
  * Write a function that checks for lowercase character.

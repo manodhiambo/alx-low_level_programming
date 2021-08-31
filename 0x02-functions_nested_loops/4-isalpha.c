@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <time.h>
+#include "main.h"
+#include "holberton.h"
 
 /**
  * main - main block
