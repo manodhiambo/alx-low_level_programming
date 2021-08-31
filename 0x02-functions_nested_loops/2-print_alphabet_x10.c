@@ -3,8 +3,7 @@
 #include "holberton.h"
 /**
  * main - main block
- *  A function that prints 10 times the alphabet, in lowercase, followed by a new line
- *Prototype: void print_alphabet_x10(void);
+ *  A function that prints 10 times the alphabet, in lowercase.
  *You can only use _putchar twice in your code
  *Return: nothing
  */
