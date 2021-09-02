@@ -1,14 +1,9 @@
-#include <stdio.h>
 #include "holberton.h"
-#include "main.c"
 
 /**
- * main - main block
+ * more_numbers -  function that prints 10 times the numbers, from 0 to 14.
  *
- * A  function that prints 10 times the numbers, from 0 to 14, new line
- * Prototype: void more_numbers(void)
- * You can only use _putchar three times in your code
- * Return: nothing
+ * Return: nothing.
  */
 
 void more_numbers(void)

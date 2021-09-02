@@ -1,16 +1,9 @@
-#include <stdio.h>
 #include "holberton.h"
-#include "main.h"
 
 /**
- * main - main block
- * A function that prints a triangle, followed by a new line
- * Prototype: void print_triangle(int size);
- *You can only use _putchar function to print
- *Where size is the size of the triangle
- *If size is 0 or less, the function should print only a new line
- *Use the character # to print the triangle
- *Return: 0
+ * print_triangle - function that prints a square, followed by a new line
+ * @size: size of triangle
+ * Return: nothing.
  */
 
 void print_triangle(int size)

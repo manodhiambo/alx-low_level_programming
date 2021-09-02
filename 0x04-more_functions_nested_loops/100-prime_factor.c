@@ -1,13 +1,9 @@
-#include <stdlb.h>
 #include <stdio.h>
-#include "holberton.h"
-#include "main.h"
 
 /**
- * The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081
- * A prgram that fnds and prnts lrgst prime factor of no. 612852475143,\n
- * You are allowed to use the standard library
- * Return: 0
+ * main - finds and prints the largest prime factor of the number
+ * 612852475143
+ * Return: 0.
  */
 
 int main(void)
