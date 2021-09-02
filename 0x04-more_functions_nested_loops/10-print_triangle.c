@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_triangle - function that prints a square, followed by a new line

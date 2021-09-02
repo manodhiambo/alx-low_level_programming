@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlb.h>
+#include "main.h"
+#include "holberton.h"
 
 /**
  * main - finds and prints the largest prime factor of the number

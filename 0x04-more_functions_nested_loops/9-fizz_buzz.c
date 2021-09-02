@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that prints the numbers from 1 to 100

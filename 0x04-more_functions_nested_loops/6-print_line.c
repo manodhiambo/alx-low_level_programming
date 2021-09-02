@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_line - function that draws a straight line in the terminal.
