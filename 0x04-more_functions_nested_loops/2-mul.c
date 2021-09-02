@@ -1,6 +1,4 @@
 #include <stio.h>
-#include "holberton.h"
-#include "main.h"
 
 /**
  * main - main block
@@ -13,7 +11,7 @@
 int mul(int a, int b, product)
 {
 
-	int result=a*b;
+	int result = (a * b);
 
-	return result;//returning result
+	return result;
 }
