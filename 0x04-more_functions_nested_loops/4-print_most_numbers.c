@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * main - main block
