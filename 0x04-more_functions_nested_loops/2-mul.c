@@ -1,12 +1,12 @@
 #include "holberton.h"
-#include "main.h"
+
 /**
- * main - main block
- *
- * A function that multiplies two integers
- * Prototype: int mul(int a, int b)
- * Return: int
+ * mul - function that multiplies two integers.
+ * @a: first input value to check
+ * @b: Sec input value to check
+ * Return: int.
  */
+
 int mul(int a, int b)
 {
 	return (a * b);
