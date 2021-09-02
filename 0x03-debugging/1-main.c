@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "holberton.h"
+#include "main.h"
 
 /**
 * main - causes an infinite loop
