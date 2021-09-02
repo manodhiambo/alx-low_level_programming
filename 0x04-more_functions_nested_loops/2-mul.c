@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include "main.h"
-
 /**
  * main - main block
  *
@@ -8,7 +7,6 @@
  * Prototype: int mul(int a, int b)
  * Return: int
  */
-
 int mul(int a, int b)
 {
 	return (a * b);
