@@ -1,7 +1,5 @@
-#include <stdio.h>
 #include "holberton.h"
 #include "main.h"
-
 /**
  * main -main block
  * A  function that checks for uppercase character.
@@ -10,7 +8,6 @@
  *Returns 0 otherwise
  *Return: int
  */
-
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
