@@ -20,9 +20,9 @@ void print_triangle(int size)
 			{
 				aux = (size - row) - 1;
 				if (col < aux)
-					_putchar(' ');
+					putchar(' ');
 				else
-					_putchar(35);
+					putchar(35);
 			}
 			_putchar('\n');
 		}
