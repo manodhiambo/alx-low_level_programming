@@ -10,8 +10,12 @@
 
 void print_numbers(void)
 {
-int i;
-for (i = 48; i < 58; i++)
-_putchar(i);
-_putchar('\n');
+	int n = 0;
+
+	while (n < 10)
+	{
+		_putchar(n + 0);
+		n += 1;
+	}
+	_putchar('\n');
 }
