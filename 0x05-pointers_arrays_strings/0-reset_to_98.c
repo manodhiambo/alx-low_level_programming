@@ -1,13 +1,13 @@
 #include "holberton.h"
-#include "main.h"
 
 /**
- * main - main block
- * A funct takes pointer to an int as parameter & upd value it points to to 98
- * Return: nothing
+ * reset_to_98 - takes a pointer to an int as parameter and updates
+ * the value it points to to 98
+ * @n: pointer to an int
+ * Return: Nothing
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
