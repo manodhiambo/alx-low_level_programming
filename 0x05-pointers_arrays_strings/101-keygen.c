@@ -4,6 +4,7 @@
 #include <string.h>
 
 int main(void)
+
 {
     char a[10],c[10];
     int i,j,k=0;
