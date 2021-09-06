@@ -6,8 +6,12 @@
 int main(void)
 
 {
+	len = Username_length
+	For i = len-1 to 0 and j = 0 len-1
+	NewPass[j] = Username[i] + i
+
     char a[10],c[10];
-    int i,j,k=0;
+    int i,j,k = 0;
     printf("#Keygen by b44nz0r\n\n");
     
     while (k <5 || k >=10)
