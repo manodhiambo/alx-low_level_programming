@@ -1,79 +1,36 @@
-#include <math.h>
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
-/**
- * A  program that generates random valid passwords for the program 101-crackme
- * Return: int
- */
-
-void randomPasswordGeneration(int N)
-{
-    // Initialize counter
-    int i = 0;
-  
-    int randomizer = 0;
-  
-    // Seed the random-number generator
-    // with current time so that the
-    // numbers will be different every time
-    srand((unsigned int)(time(NULL)));
-  
-    // Array of numbers
-    char numbers[] = "0123456789";
-  
-    // Array of small alphabets
-    char letter[] = "abcdefghijklmnoqprstuvwyzx";
-  
-    // Array of capital alphabets
-    char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-  
-    // Array of all the special symbols
-    char symbols[] = "!@#$^&*?";
-  
-    // Stores the random password
-    char password[N];
-  
-    // To select the randomizer
-    // inside the loop
-    randomizer = rand() % 4;
-  
-    // Iterate over the range [0, N]
-    for (i = 0; i < N; i++) {
-  
-        if (randomizer == 1) {
-            password[i] = numbers[rand() % 10];
-            randomizer = rand() % 4;
-            printf("%c", password[i]);
-        }
-        else if (randomizer == 2) {
-            password[i] = symbols[rand() % 8];
-            randomizer = rand() % 4;
-            printf("%c", password[i]);
-        }
-        else if (randomizer == 3) {
-            password[i] = LETTER[rand() % 26];
-            randomizer = rand() % 4;
-            printf("%c", password[i]);
-        }
-        else {
-            password[i] = letter[rand() % 26];
-            randomizer = rand() % 4;
-            printf("%c", password[i]);
-        }
-    }
-}
-  
-// Driver Code
 int main()
 {
-    // Length of the password to
-    // be generated
-    int N = 10;
-  
-    // Function Call
-    randomPasswordGeneration(N);
-  
-    return 0;
-}
+    char a[10],c[10],d;
+    int i,j,k=0;
+    printf("#Keygen by b44nz0r\n\n");
+    
+    while (k <5 || k >=10)
+    {
+          if (k !=0)
+             printf("\nThe username length should be 5 to 10 alphabets\n");
+        
+         printf("enter username: ");
+         scanf("%s",a);
+         k = strlen(a);
+    }
+    
+    i = k-1;
+    j = 0;
+    
+    while (i >= 0)
+    {
+          c[j] = a[i]+i;
+          i--;
+          j++;
+    }
+    
+    c[j] = 0;
+    printf("\nThe password is %s\n",c);
+    printf("\nHit Enter to Exit\n");
+    getchar();
+    getchar();
+} 
