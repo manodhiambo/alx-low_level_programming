@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    char a[10],c[10],d;
+    char a[10],c[10];
     int i,j,k=0;
     printf("#Keygen by b44nz0r\n\n");
     
@@ -34,4 +34,4 @@ int main(void)
     printf("\nHit Enter to Exit\n");
     getchar();
     getchar();
-} 
+}
