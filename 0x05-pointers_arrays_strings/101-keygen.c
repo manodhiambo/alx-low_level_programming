@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include <string.h>
 
-int main()
+int main(void)
 {
     char a[10],c[10],d;
     int i,j,k=0;
