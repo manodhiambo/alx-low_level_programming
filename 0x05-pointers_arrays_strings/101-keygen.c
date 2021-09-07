@@ -5,32 +5,27 @@
 
 int main(void)
 {
-	char a[10],c[10];
-    int i,j,k = 0;
-    printf("#Keygen by b44nz0r\n\n");
-    
-    while (k <5 || k >=10)
-    {
-          if (k !=0)
-             printf("\nThe username length should be 5 to 10 alphabets\n");
-        
-         printf("enter username: ");
-         scanf("%s",a);
-         k = strlen(a);
-    }
-    
-    i = k-1;
-    j = 0;
-    
-    while (i >= 0)
-    {
-          c[j] = a[i]+i;
-          i--;
-          j++;
-    }
-    
-    c[j] = 0;
-    printf("\nThe password is %s\n",c);
-    printf("\nHit Enter to Exit\n");
-    getchar();
-    getchar();
+	int pass[100];
+
+	int i, sum, n;
+
+	sum = 0;
+
+	srand(time(NULL));
+
+	for (i = 0; i < 100; i++)
+	{
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		putchar(pass[i] + '0');
+		if ((2772 - sum) - '0' < 78)
+		{
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+
+			break;
+		}
+	}
+	return (0);
+}
