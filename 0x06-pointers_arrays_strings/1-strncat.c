@@ -1,12 +1,11 @@
 #include "holberton.h"
-#include "main.h"
 
 /**
- * A function that concatenates two strings
- * The _strncat function is similar to the _strcat function, except that
- * it will use at most n bytes from src; and
- * src does not need to be null-terminated if it contains n or more bytes
- * Return a pointer to the resulting string dest
+ * _strncat- function that concatenates two strings.
+ *
+ * @dest: pointer to destination char
+ * @src: pointer to source char
+ * @n: number of bytes to receive
  * Return: char
  */
 
