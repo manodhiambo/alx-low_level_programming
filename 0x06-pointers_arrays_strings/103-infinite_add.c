@@ -15,5 +15,19 @@
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	return (*n1) + (*n2);
+	int *n1, *n2, res;
+ 
+   printf("\nEnter the two numbers : ");
+   scanf("%d %d", &*n1, &*n2);
+ 
+   res = sum(*n1, *n2);
+ 
+   printf("nAddition of two number is : ");
+   return (0);
+}
+ 
+int sum(int *n1, int *n2) {
+   int *r;
+   *r = *n1 + *n2;
+   return (0);
 }
