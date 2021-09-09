@@ -1,12 +1,10 @@
 #include "holberton.h"
-#include "main.h"
 
 /**
- * A function that concatenates two strings
- * This function appends the src string to the dest string, 
- * overwriting the terminating null byte (\0) at the end of dest, 
- * and then adds a terminating null byte
- * Returns a pointer to the resulting string dest
+ * _strcat- function that concatenates two strings.
+ *
+ * @dest: pointer to destination char
+ * @src: pointer to source char
  * Return: char
  */
 
