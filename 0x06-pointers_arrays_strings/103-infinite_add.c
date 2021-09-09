@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * A  function that adds two numbers.
@@ -29,5 +30,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 int sum(int *n1, int *n2) {
    int *r;
    *r = *n1 + *n2;
-   return (0);
+   return (*r);
 }
