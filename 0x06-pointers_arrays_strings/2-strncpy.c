@@ -1,8 +1,11 @@
 #include "holberton.h"
 
 /**
- * A function that copies a string
- * Your function should work exactly like strncp
+ * _strncpy - function that copies a string.
+ *
+ * @dest: pointer to destination char
+ * @src: pointer to source char
+ * @n: number of bytes
  * Return: char
  */
 
