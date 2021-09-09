@@ -1,12 +1,9 @@
 #include "holberton.h"
-#include "main.h"
 
 /**
- * A function that capitalizes all words of a string
- * Separators of words: space, tabulation, 
- * new line, ,, ;, ., !, ?, ", (, ), {, and }
- * Prototype: char *cap_string(char *);
- * Return: char
+ * cap_string - function that capitalizes all words of a string.
+ * @s: Pointer to Char
+ * Return: char.
  */
 
 char *cap_string(char *s)
