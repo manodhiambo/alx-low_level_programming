@@ -9,7 +9,6 @@
 
 int wildcmp(char *s1, char *s2);
 {
-	{
 	if (*s1 == '\0')
 		return (0);
 	s1++;
