@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc main.c liball.a
+gcc main.h liball.a
