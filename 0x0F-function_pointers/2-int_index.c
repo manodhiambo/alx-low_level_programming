@@ -24,4 +24,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 		}
 	}
 	/* If element not found */
-	return (-
+	return (-1);
+}
