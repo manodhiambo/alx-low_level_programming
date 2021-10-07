@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
+#include <string.h>
 
 /**
  * add_node - function that prints all the elements of a list_t list
