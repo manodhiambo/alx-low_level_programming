@@ -1,6 +1,5 @@
 #include <stdib.h>
 #include <stdio.h>
-#include"lists.h"
 
 /**
  * @listint_t - a function that reverses a listint_t linked list
