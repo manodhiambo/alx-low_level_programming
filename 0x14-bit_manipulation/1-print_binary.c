@@ -13,9 +13,13 @@
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
+
 		return (-1);
+
 	if (y == 0)
+
 		return (1);
+
 	return (x * _pow_recursion(x, y - 1));
 }
 
@@ -32,7 +36,9 @@ void print_binary(unsigned long int n)
 	int flag = 0;
 
 	if (n == 0)
+
 		_putchar('0');
+
 	while (exp >= 0)
 	{
 		res_pow = _pow_recursion(2, exp);
@@ -43,6 +49,7 @@ void print_binary(unsigned long int n)
 			flag = 1;
 		}
 		else if (n < res_pow && flag == 1)
+
 			_putchar('0');
 		exp--;
 	}
