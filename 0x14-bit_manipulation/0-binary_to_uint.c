@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _pow_recursion - function that returns the value of x
