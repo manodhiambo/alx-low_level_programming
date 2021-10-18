@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
  *main - Program that copies the content of a file into another file
