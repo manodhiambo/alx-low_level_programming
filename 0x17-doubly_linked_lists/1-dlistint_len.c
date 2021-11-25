@@ -1,14 +1,14 @@
-#include <stdio.h>
+
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
- * print_dlistint - function that prints all elements of a dlistint_t list
- * @h: header pointer
- * Return: the number of nodes
+ * dlistint_len - function that returns the number of elements in a linked
+ * list_t list
+ * @h: h pointer
+ * Return: the number of elements
  */
-
 size_t dlistint_len(const dlistint_t *h)
 {
 	size_t cont = 0;
