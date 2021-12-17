@@ -1,4 +1,4 @@
-#include "sorted_hash_table.h"
+#include "sorted_hash_tables.h"
 
 /**
  * shash_table_create - creates a shash table
