@@ -1,23 +1,27 @@
 
 #!/usr/bin/python3
-""" Program that discover the perimeter of an island depends on grid """
+
+""" Function to find perimiter of an island """
 
 
 def island_perimeter(grid):
-    perim = 0
-    srow = len(grid)
-    for row in range(srow):
-        scol = len(grid[row])
-        for col in range(scol):
-            if grid[row][col] == 1:
-                if (row == 0 or (grid[row - 1][col] != 1)):
-                    perim += 1
-                if (row == (srow - 1) or (row < srow - 1 and
-                                          grid[row + 1][col] != 1)):
-                    perim += 1
-                if (col == 0 or (grid[row][col - 1] != 1)):
-                    perim += 1
-                if (col == (scol - 1) or (col < scol - 1 and
-                                          grid[row][col + 1] != 1)):
-                    perim += 1
-    return (perim)
+    """
+    Input: List of Lists
+    Returns: Perimeter of the island
+    """
+    count = 0
+    row = len(grid)
+    col = len(grid[0]) if row else 0
+
+    for i in range(len(grid)):
+        for j in range(len(grid[i])):
+
+            idx = [(i - 1, j), (i, j - 1), (i, j + 1), (i + 1, j)]
+            check = [1 if k[0] in range(row) and k[1] in range(col) else 0
+                     for k in idx]
+
+            if grid[i][j]:
+                count += sum([1 if not r or not grid[k[0]][k[1]] else 0
+                              for r, k in zip(check, idx)])
+
+    return (count)
