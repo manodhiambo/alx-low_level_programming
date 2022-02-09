@@ -1,5 +1,5 @@
 
 all: school
 
-holberton: school.c main.c
+school: school.c main.c
 	gcc main.c school.c -o school
