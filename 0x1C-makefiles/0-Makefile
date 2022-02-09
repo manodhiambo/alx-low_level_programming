@@ -1,0 +1,5 @@
+
+# This is a MakeFile
+
+all:
+	gcc main.c holberton.c -o school
