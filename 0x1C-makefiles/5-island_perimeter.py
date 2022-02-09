@@ -4,14 +4,6 @@
 
 
 def island_perimeter(grid):
-    """ returns the perimeter of the island described in grid
-    examp: 0 0 0
-           0 1 0
-           0 0 0
-    Res: this will return 4, because One cell is a square with side length 1,
-    if side right/left of int 1 is shared by 0, we incremment the counter.
-    Also, perimeter of rectangle is (2 * (widht + height))
-    """
     perim = 0
     srow = len(grid)
     for row in range(srow):
