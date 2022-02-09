@@ -1,21 +1,24 @@
-# This is a MakeFile
 
 CC = gcc
 SRC = main.c holberton.c
 OBJ = $(SRC:%.c=%.o)
-NAME = school
+NAME = holberton
 CFLAGS = -Wall -Werror -Wextra -pedantic
-.PHONY: all clean oclean fclean re
 
-all:	m.h $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+.PHONY: re oclean fclean clean all
+
+all: $(NAME)
+
+$(NAME): m.h $(OBJ)
+# $@: replace by objective name
+	$(CC) $(OBJ) -o $@
 
 clean:
-	$(RM) *~ $(NAME)
+	$(RM) -f *~ $(NAME)
 
 oclean:
-	$(RM) $(OBJ)
+	$(RM) -f $(OBJ)
 
 fclean: clean oclean
 
-re:	oclean all
+re: oclean all
