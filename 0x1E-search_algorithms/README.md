@@ -19,3 +19,16 @@
 <li>What is a binary search</li>
 <li>What is the best search algorithm to use depending on your needs</li>
 </ul>
+
+<h3>More Info</h3>
+You will be asked to write files containing big O notations. Please use this format:
+<ul>
+<li>O(1)</li>
+<li>O(n)</li>
+<li>O(n!)</li>
+<li>n*m -> O(nm)</li>
+<li>n square -> O(n^2)</li>
+<li>sqrt n -> O(sqrt(n))</li>
+<li>log(n) -> O(log(n))</li>
+<li>n * log(n) -> O(nlog(n))</li>
+</ul>
